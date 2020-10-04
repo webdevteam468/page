@@ -1,12 +1,12 @@
-# Website nhóm Team468
+# Website nhóm Team468 
 
 ---
 
 ## Môn học
 
-**Lập Trình Ứng Dụng Web**
+***Lập Trình Ứng Dụng Web***
 
-## Thông tin thành viên
+## Thông tin thành viên :see_no_evil:
 
 + Lê Đức Thành
 
@@ -14,9 +14,15 @@
 
 + Nguyễn Huy Tú
 
-## Nội dung trang
+## Nội dung website
 
-Bao gồm:
+Trang chủ bao gồm:
+
+> - Thông tin giới thiệu nhóm
+> - Ảnh nhóm
+> - Liên kết đến *trang thành viên*
+
+Trang thành viên bao gồm:
 
 > - Hình đại diện
 > - Họ tên
@@ -24,9 +30,9 @@ Bao gồm:
 > - Ngày tháng năm sinh
 > - Email
 > - Điện thoại
-> - Liên kết quay về trang thông tin nhóm
+> - Liên kết quay về *trang chủ*
  
 ## Chức năng trang
 
-+ *Image map*: Nhấn vào mặt thành viên ở trang chủ để đến trang thành viên.
+ - [x] *Image map*: Nhấn vào mặt thành viên ở trang chủ để đến trang thành viên.
  
