@@ -1,0 +1,307 @@
+body{
+	font-family: Ariel, Helvetica, sans-serif;
+	font-size:15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #161e25;
+	background: url('../images/showcase.png') no-repeat 0;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	min-width: 1080px;
+}
+@font-face
+{
+	font-family: Jonathan;
+	src: url('../style/fonts/Jonathan.ttf');
+}
+
+@font-face
+{
+	font-family: Horta;
+	src: url('../style/fonts/Horta.ttf');
+}
+
+
+@font-face
+{
+	font-family: NotoSan-Bold;
+	src:url('../style/fonts/NotoSans-Bold.ttf');
+}
+
+
+@font-face
+{
+	font-family: NotoSan-Regular;
+	src:url('../style/fonts/NotoSans-Regular.ttf');
+}
+
+/*global */
+.container{
+	display:flex;
+	flex-direction: column;
+	flex-basis: content;
+	align-items: center;
+	margin: auto;
+	width:100%;
+	overflow: hidden;
+	
+}
+
+.container .TeamName
+{
+	font-size: 8vw;
+	font-family: Jonathan;
+	text-align: center;
+	font-weight: 300;
+	margin: 0;
+	padding-top: 5vw;
+	line-height: 1.0;
+}
+.container .Greeting
+{
+	font-family: Horta;
+	font-weight: 500;
+	font-size:22vw;
+	text-align: center;
+	margin: 0;
+	line-height: 1.0;
+	color:#54ffe1;
+	text-shadow: 12px 12px 2px#078992,24px 24px 2px  #0f5058 ;
+}
+.container .Note{
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-bottom: 10vw;
+	text-align: center;
+}
+
+.container{
+	min-height: 40vw;
+	font: Helvetica;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: justify-all;
+	padding-top: 50px;
+	font-weight: lighter;
+	position: relative;
+	z-index: 1;
+}
+.container::after
+{
+	content: '';
+	height: 100%;
+	width: 100%;
+	left:0;
+	top:0;
+	background-color: #161e25;
+	position: absolute;
+	opacity:0.7;
+	z-index: -1;
+}
+.overview{
+	height: 40vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #ffffff;
+	background-color: #000000b0;
+	min-height: 400px;
+
+}
+
+
+.info{
+	width: 100%;
+	flex: 50%;
+	align-self: center;
+	font-size: 2vw;
+	align-items: center;
+	padding:5px;
+	text-align: left;
+	margin-left: 10vw;
+
+}
+.fit-picture {
+	width: 550px;
+	
+    margin-left: 5vw;
+    align-content: space-around;
+    align-self: center,center;
+}
+.MemberPage{
+	margin-top: 4vw;
+	min-height: 500px;
+}
+.member-picture{
+	width: 100px;
+	margin-left: 5vw;
+
+}
+.info hr
+{
+	margin-right: 18vw;
+	color: #fa1111;
+	
+}
+
+.info h1
+{
+	font-family: NotoSan-Bold;
+	color: transparent;
+	animation: reveal_title 0.5s ease forwards;
+}
+
+
+
+.info table
+{
+	font-family: NotoSan-Regular;
+	border-spacing: 0
+}
+
+
+.info table td
+{
+	padding-right: 2vw;
+	position: relative;
+}
+
+.info table .InfoText
+{
+	color:transparent;
+	animation: reveal_text 0.5s ease forwards;
+	animation-delay: 1.5s;
+}
+
+.info table tr:nth-child(1) .InfoText
+{
+	animation-delay: 0.75s;
+}
+
+.info table tr:nth-child(2) .InfoText
+{
+	animation-delay: 1.75s;
+
+}
+
+.info table tr:nth-child(3) .InfoText
+{
+	animation-delay: 2.75s;
+}
+
+.info table tr:nth-child(4) .InfoText
+{
+	animation-delay: 3.75s;
+}
+
+
+
+
+
+
+.info table td span
+{
+	position:absolute;
+	width:0;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: cyan;
+	animation: reveal_box 1s ease;
+}
+
+
+
+
+.info table tr:nth-child(1) span
+{
+	animation-delay: 0.5s;
+}
+
+
+.info table tr:nth-child(2) span
+{
+	animation-delay: 1.5s;
+}
+
+.info table tr:nth-child(3) span
+{
+	animation-delay: 2.5s;
+}
+
+.info table tr:nth-child(4) span
+{
+	animation-delay: 3.5s;
+}
+
+
+footer{
+	color: #ffffff;
+	text-align: center;
+}
+
+button
+{
+	border: 4px solid #54ffe1;
+	border-radius: 1vw;
+	height: 5vw;
+	width: 15vw;
+	background-color: transparent;
+	font-size: 1.5vw;
+	font-family: NotoSan-Regular;
+	color: #54ffe1;
+	margin-top: 2vw;
+	text-align: center;
+
+}
+
+button:hover
+{
+	color:black;
+	background-color: #54ffe1;
+	transition: all 0.2s ease 0s;	
+}
+a{
+	text-decoration: none;
+}
+a,a:visited,a:hover{
+	color: inherit;
+}
+footer{
+	font-size: 1vw;
+	text-align: center;
+}
+
+
+
+/*animation*/
+@keyframes reveal_box
+{
+	50%{
+		width: 100%;
+		left:0;
+	}
+	100%{
+		width:0;
+		left:100%;
+	}
+}
+
+@keyframes reveal_text
+{
+	100%
+	{
+		color:white;
+	}
+}
+
+@keyframes reveal_title
+{
+	100%
+	{
+		color:white;
+	}
+}
+
