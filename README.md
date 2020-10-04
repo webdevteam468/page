@@ -1,17 +1,23 @@
-# Website nhóm phục vụ cho môn học *Lập Trình Ứng dụng Web*
+# Website nhóm Team468
 
 ---
 
+## Môn học
+
+**Lập Trình Ứng Dụng Web**
+
 ## Thông tin thành viên
 
-Lê Đức Thành
++ Lê Đức Thành
 
-Nguyễn Thị Ngọc Trâm
++ Nguyễn Thị Ngọc Trâm
 
-Nguyễn Huy Tú
++ Nguyễn Huy Tú
 
 ## Nội dung trang
-- Bao gồm:
+
+Bao gồm:
+
 > - Hình đại diện
 > - Họ tên
 > - Mã số sinh viên
@@ -21,5 +27,6 @@ Nguyễn Huy Tú
 > - Liên kết quay về trang thông tin nhóm
  
 ## Chức năng trang
-*Image map: Nhấn vào mặt thành viên ở trang chủ để đến trang thành viên.
+
++ *Image map*: Nhấn vào mặt thành viên ở trang chủ để đến trang thành viên.
  
