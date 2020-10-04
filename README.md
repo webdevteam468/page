@@ -1,10 +1,14 @@
-# Website nhóm Team468 
+# Website Nhóm Team468 
 
 ---
 
 ## Môn học
 
 ***Lập Trình Ứng Dụng Web***
+
+## Hosting
+
+[GitHub Pages](https://webdevteam468.github.io/page/)
 
 ## Thông tin thành viên :see_no_evil:
 
