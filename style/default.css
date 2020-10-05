@@ -125,7 +125,6 @@ body{
 }
 .fit-picture {
 	width: 550px;
-	
     margin-left: 5vw;
     align-content: space-around;
     align-self: center,center;
@@ -137,13 +136,14 @@ body{
 .member-picture{
 	width: 100px;
 	margin-left: 5vw;
+	width: 25vw;
 
 }
 .info hr
 {
 	margin-right: 18vw;
 	color: #ffffff;
-	
+	margin-right: 16vw;
 }
 
 .info h1
